@@ -1,0 +1,253 @@
+<html>
+<head>
+<style type= "text/css">
+body{
+background-image: url(https://www.worldcitiesdb.com/flags-normal/cr.png);
+font-family:cursive;
+color: black;
+font-size: 19;
+}
+table, th, td {
+  border: 1px solid black;
+}
+th,td {
+  text-align: left;
+}
+table{
+background-image: url(data:image/jpeg;base64,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);
+
+color:black;
+background-blend-mode: lighten;
+}
+</style> 
+</head>
+<body>
+<title>
+United Kingdom-Traffic Rules and Violations
+</title>
+<h1 align="center">
+UNITED KINDOM (UK)
+</h1>
+<hr>
+<h2>Traffic Rules:</h2>
+<p>
+1. The UK follows left-handed traffic 
+<br>
+2. The average speed limit is 30mph 
+<br>
+3. Wearing seatbelts and/or helmets are compulsory
+<br>
+4. Making way for emergency vehicles are mandatory
+<br>
+5. Pedestrians must keep to the right while walking
+<br>
+6. Pedestrians must not use the motorways or slip roads unless it is an emergency 
+<br>
+7. Jumping red lights is not allowed 
+<br>
+8.Any citizen of age 15 years and 9 months old can apply for a driving license 
+<br>
+9. Driving license, Insurance and pollution check is required to drive a vehicle on the road
+<br>
+10. If traffic is approaching from your right, you must give way to the vehicle unless you are directed to do otherwise by signs, road markings or traffic lights.
+</p>
+<hr>
+<h2>
+Violations and their fines: 
+</h2>
+
+<table>
+<tr>
+<th>S.no</th> 
+<th>Offence</th> 
+<th>Imprisonment</th> 
+<th> Fine</th> 
+<th> Disqualification</th> 
+<th> Penalty Points </th>
+</tr>
+
+<tr>
+<td> 1</td>
+<td> Causing Death by Careless Driving</td>
+<td>14 years </td> 
+<td> Unlimited</td> 
+<td>Obligatory </td> 
+<td> 3 to 11</td>
+
+<tr>
+<td> 2</td>
+<td> Dangerous Driving</td>
+<td>2 years </td>
+<td> Unlimited</td>
+<td>Obligatory </td>
+<td> 3 to 11</td>
+
+<tr>
+<td> 3</td>
+<td> Causing Death by Careless Driving under Influence of drink or drugs</td>
+<td>14 years </td>
+<td> Unlimited</td>
+<td>Obligatory </td>
+<td> 3 to 11</td>
+
+<tr>
+<td> 4</td>
+<td> Careless and inconsiderate driving</td>
+<td>None</td>
+<td> Unlimited</td>
+<td>Discretionary</td>
+<td> 3 to 9</td>
+
+<tr>
+<td> 5</td>
+<td> Driving while unfit through drink or drugs or with excess alcohol: or failing to provide a specimen for analysis</td>
+<td>6 months</td>
+<td> Unlimited</td>
+<td>Obligatory</td>
+<td> 3 to 11</td>
+
+<tr>
+<td> 6</td>
+<td> Failing to stop after an accident or failing to report an accident</td>
+<td>6 months</td>
+<td> Unlimited</td>
+<td>Discretionary</td>
+<td> 5 to 10</td>
+
+<tr>
+<td> 7</td>
+<td> Driving while disqualified</td>
+<td>6 months</td>
+<td> Unlimited</td>
+<td>Discretionary</td>
+<td>6</td>
+
+<tr>
+<td> 8</td>
+<td> Driving after refusal or revocation of licence on medical grounds</td>
+<td>6 months</td>
+<td> Unlimited</td>
+<td>Discretionary</td>
+<td>3 to 6</td>
+
+
+<tr>
+<td> 9</td>
+<td> Driving without insurance</td>
+<td>None</td>
+<td> Unlimited</td>
+<td>Discretionary</td>
+<td> 6 to 8</td>
+
+<tr>
+<td> 10</td>
+<td> Using a vehicle in a dangerous condition</td>
+<td>None</td>
+<td> Unlimited(for LGV or PCV), £2500</td>
+<td>Discretionary</td>
+<td> 3</td>
+
+<tr>
+<td> 11</td>
+<td> Failure to have proper control of vehicle or full view of the road and traffic ahead</td>
+<td>None</td>
+<td>  £1000 , £2500(for PVC or goods vehicle)</td>
+<td>Discretionary</td>
+<td> 3</td>
+
+<tr>
+<td> 12</td>
+<td>Using a hand-held mobile phone when driving</td>
+<td>None</td>
+<td>  £1000 , £2500(for PVC or goods vehicle)</td>
+<td>Discretionary</td>
+<td> 6</td>
+
+
+<tr>
+<td> 13</td>
+<td>Driving otherwise than in accordance with a licence</td>
+<td>None</td>
+<td>  £1000</td>
+<td>Discretionary</td>
+<td> 3 to 6</td>
+
+
+<tr>
+<td> 14</td>
+<td>Speeding</td>
+<td>None</td>
+<td>  £1000</td>
+<td>Discretionary</td>
+<td> 3 to 6</td>
+
+<tr>
+<td> 15</td>
+<td>Traffic light offences</td>
+<td>None</td>
+<td>  £1000</td>
+<td>Discretionary</td>
+<td> 3</td>
+
+<tr>
+<td> 16</td>
+<td>No MOT certificate</td>
+<td>None</td>
+<td>  £1000</td>
+<td>None</td>
+<td> None</td>
+
+<tr>
+<td> 17</td>
+<td>Seat belt offences</td>
+<td>None</td>
+<td>  £500</td>
+<td>None</td>
+<td> None</td>
+
+
+<tr>
+<td> 18</td>
+<td>Dangerous cycling</td>
+<td>None</td>
+<td>  £2500</td>
+<td>None</td>
+<td> None</td>
+
+<tr>
+<td> 19</td>
+<td> Careless cycling</td>
+<td>None</td>
+<td>  £1000</td>
+<td>None</td>
+<td> None</td>
+
+<tr>
+<td> 20</td>
+<td>Cycling on pavement</td>
+<td>None</td>
+<td>  £500</td>
+<td>None</td>
+<td> None</td>
+
+<tr>
+<td> 21</td>
+<td>Failing to identify driver of vehicle</td>
+<td>None</td>
+<td>  £1000</td>
+<td>Discretionary</td>
+<td> None</td>
+
+</table>
+<br><hr>
+To know more about TRAFFIC RULES, click on:<br><br>
+<a href= "file:///C:/Users/bhuvi/Google%20Drive/WGS/PBL/page1.html">
+Traffic Rules-Introduction</a><br><br>
+<a href="file:///C:/Users/bhuvi/Google%20Drive/WGS/PBL/page2.html">
+India-Traffic Rules and Violations</a><br><br>
+<a href="file:///C:/Users/bhuvi/Google%20Drive/WGS/PBL/page4.html">
+What is the difference- UK and Indian Traffic Management?
+</a><br><br>
+
+</body>
+
